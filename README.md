@@ -1,18 +1,18 @@
-### Explanation of run_analysis.R
+## Explanation of run_analysis.R
 
-## Raw Data
+### Raw Data
 Raw data to be processed is available here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Unzip the downloaded zip file, and then put 'UCI HAR Dataset' folder at the same location with run_analysis.R.
 You should focus on the following files:
-1. activity_labels.txt
-2. features.txt
-3. features_info.txt
-4. README.txt
-5. Files in test folder, except under Inertial Signals directory
-6. Files in train folder, except under Inertial Signals directory
+1) activity_labels.txt
+2) features.txt
+3) features_info.txt
+4) README.txt
+5) Files in test folder, except under Inertial Signals directory
+6) Files in train folder, except under Inertial Signals directory
 
-## Data Processing Data
+### Data Processing Steps
 Following are steps to tidy the raw data:
 1. Load additional required library
     The script requires 'dplyr' package as functions such as arrange, group_by, and summarise_each are used.

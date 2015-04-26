@@ -1,11 +1,11 @@
-### Data Dictionary of output of run_analysis.R
+## Data Dictionary of output of run_analysis.R
 
-## Reference:
-1. features_info.txt
-2. README.txt
+### Reference:
+1) features_info.txt
+2) README.txt
 Both files are available in a zipped file provided here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## Variables
+### Variables
     subject: 2
         Identity of voluntary subject who performed the experiments.
         
