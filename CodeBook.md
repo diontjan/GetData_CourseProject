@@ -3,6 +3,7 @@
 ### Reference:
 1) features_info.txt
 2) README.txt
+
 Both files are available in a zipped file provided here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### Variables
@@ -22,6 +23,7 @@ Both files are available in a zipped file provided here https://d396qusza40orc.c
         6 Laying
 
 For the following variables, kindly refer to description in 'features_info.txt'. The 'time' prefix is know as 't' prefix, while 'freq' is as 'f'. The 'mean_' equals to 'mean()' description.
+
     time_BodyAcc_mean_X
     time_BodyAcc_mean_Y
     time_BodyAcc_mean_Z
@@ -57,6 +59,7 @@ For the following variables, kindly refer to description in 'features_info.txt'.
     freq_BodyBodyGyroJerkMag_mean
 
 For the following variables, kindly refer to description in 'features_info.txt'. The 'time' prefix is know as 't' prefix, while 'freq' is as 'f'. The 'std_' equals to 'std()' description.
+    
     time_BodyAcc_std_X
     time_BodyAcc_std_Y
     time_BodyAcc_std_Z
